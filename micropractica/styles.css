@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 2rem 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+    color: black;
+}
+
+body h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: crimson;
+}
+
+
+body h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: crimson;
+}
+
+
+
+.formulario {
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+fieldset {
+    margin: 0 0 1.5rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid #e4e7eb;
+    border-radius: 12px;
+}
+
+fieldset legend {
+    padding: 0 0.5rem;
+    font-weight: 600;
+    color: crimson;
+}
+
+.campo {
+    margin-bottom: 1rem;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-weight: 600;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    border: 2px solid grey;
+    border-radius: 8px;
+    font: inherit;
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {    
+    outline: 3px solid;
+    outline-offset: 2px;
+    border-color: green;
+}
+
+.opcion {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.opcion input {
+    width: auto;
+    margin-right: 0.35rem;
+}
+
+
+input:user-invalid,
+select:user-invalid,
+textarea:user-invalid {
+    border-color: red;
+    background-color: #e4e7eb;
+}
+
+.boton {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    background-color: crimson;
+    color: #fff;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.boton:hover {
+    background-color: red;
+}
+
+.boton:focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: 3px;
+}
+
